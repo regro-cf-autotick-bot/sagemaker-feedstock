@@ -1,5 +1,5 @@
 {% set name = "sagemaker" %}
-{% set version = "2.75.1" %}
+{% set version = "2.77.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/sagemaker-{{ version }}.tar.gz
-  sha256: 30dfc5ed359a2ac42928c47b3f1c7455a9b5f8ef8f14427f1f98cb261df3a5ee
+  sha256: 583c0c0ab633dc2534e192449f96f670096832d36674c0f64117479b7a2bdc91
 
 build:
   number: 0
